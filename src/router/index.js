@@ -5,6 +5,7 @@ import TableBasics from '../views/TableBasics.vue'
 import OrderingAlcohol from '../views/OrderingAlcohol.vue'
 import ConversationNetworking from '../views/ConversationNetworking.vue'
 import PayingFollowup from '../views/PayingFollowup.vue'
+import Survey from '../views/Survey.vue'
 
 const routes = [
   { path: '/', name: 'home', component: HomeView },
@@ -13,6 +14,7 @@ const routes = [
   { path: '/ordering-alcohol', component: OrderingAlcohol },
   { path: '/conversation-networking', component: ConversationNetworking },
   { path: '/paying-followup', component: PayingFollowup },
+  { path: '/survey', component: Survey },
 ]
 
 const router = createRouter({

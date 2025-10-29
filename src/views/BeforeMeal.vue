@@ -13,6 +13,7 @@
           <li>Bring business cards if appropriate</li>
         </ul>
       </div>
+      <p class="muted">For university-specific interview and dining prep, check UA Career & Internship Services: <a href="https://career.arizona.edu/" target="_blank" rel="noopener">career.arizona.edu</a></p>
     </div>
 
     <div class="content-card">
