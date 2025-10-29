@@ -15,7 +15,18 @@ const routes = [
   { path: '/paying-followup', component: PayingFollowup },
 ]
 
-export default createRouter({
+const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes
 })
+
+// Handle 404s for GitHub Pages
+router.beforeEach((to, from, next) => {
+  if (to.matched.length === 0) {
+    next({ path: '/' })
+  } else {
+    next()
+  }
+})
+
+export default router
