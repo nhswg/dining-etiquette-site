@@ -25,19 +25,21 @@ body {
 }
 
 #app {
-  max-width: var(--max-width);
-  margin: 0 auto;
   padding-bottom: calc(var(--spacing-unit) * 4);
+}
+
+header {
+  width: 100%;
+  background: linear-gradient(90deg, var(--primary-color) 0%, #004b8d 100%);
+  box-shadow: 0 4px 18px rgba(0, 24, 48, 0.15);
+  margin-bottom: calc(var(--spacing-unit) * 2);
 }
 
 /* Navigation */
 nav {
-  background: linear-gradient(90deg, var(--primary-color) 0%, #004b8d 100%);
-  padding: calc(var(--spacing-unit) * 0.5) calc(var(--spacing-unit) * 1.25);
-  margin-bottom: calc(var(--spacing-unit) * 2);
-  box-shadow: 0 4px 18px rgba(0, 24, 48, 0.15);
-  border-bottom-left-radius: var(--radius);
-  border-bottom-right-radius: var(--radius);
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: calc(var(--spacing-unit) * 0.75) calc(var(--spacing-unit) * 2);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -77,6 +79,8 @@ nav a.router-link-active {
 
 /* Content Layout */
 main {
+  max-width: var(--max-width);
+  margin: 0 auto;
   padding: calc(var(--spacing-unit) * 1.25) calc(var(--spacing-unit) * 1.75);
 }
 
@@ -140,6 +144,8 @@ a:hover {
   padding: calc(var(--spacing-unit) / 2) calc(var(--spacing-unit) * 0.9);
   border-radius: 6px;
   font-weight: 700;
+  text-decoration: none;
+  transition: transform 0.2s, filter 0.2s;
 }
 
 .nav-button {
@@ -148,6 +154,7 @@ a:hover {
   color: var(--primary-color);
   padding: calc(var(--spacing-unit) / 2) calc(var(--spacing-unit) * 0.9);
   border-radius: 6px;
+  text-decoration: none;
 }
 
 /* Responsive Design */

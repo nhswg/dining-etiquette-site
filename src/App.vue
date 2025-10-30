@@ -9,7 +9,7 @@ export default {
     <header>
       <nav>
         <router-link to="/" class="brand" exact>
-          <img src="./assets/logo.svg" alt="UA Dining Etiquette" class="nav-logo" />
+          <img src="./assets/logo.png" alt="UA Dining Etiquette" class="nav-logo" />
           <span class="brand-text">UA Dining Etiquette</span>
         </router-link>
         <div class="nav-links">

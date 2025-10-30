@@ -3,10 +3,7 @@
     <h1>Welcome to UA Dining Etiquette</h1>
 
   <div class="content-card content-card--hero" style="text-align:center;">
-      <img src="../assets/logo.svg" alt="Dining Etiquette logo" class="home-logo" />
-
-  <p style="margin-top:0.5rem; color:#ffffff; font-size: 1.1rem;">A quick introduction and multimedia resources to help you prepare for professional meals. For campus-specific career preparation resources, see <a href="https://career.arizona.edu/" target="_blank" rel="noopener" style="color:#ffffff; text-decoration-color:rgba(255,255,255,0.8);">UA Career & Internship Services</a>.</p>
-
+      <p style="margin-top:0.5rem; color:#ffffff; font-size: 1.1rem;">A quick introduction and multimedia resources to help you prepare for professional meals. For campus-specific career preparation resources, see <a href="https://career.arizona.edu/" target="_blank" rel="noopener" style="color:#ffffff; text-decoration-color:rgba(255,255,255,0.8);">UA Career & Internship Services</a>.</p>
       <div class="video-wrapper" aria-hidden="false">
         <!-- Embedded: Business Dining Etiquette — selected from YouTube search results -->
         <iframe src="https://www.youtube.com/embed/z3sIqUlkkWo" title="Business Dining Etiquette: 5 Tips That Will Save Your Career" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -19,7 +16,7 @@
       </p>
 
       <div class="quick-links">
-        <router-link to="/table-basics" class="primary-button">Start Learning</router-link>
+        <router-link to="/before-meal" class="primary-button">Start Learning</router-link>
         <router-link to="/survey" class="primary-button">Take Survey</router-link>
       </div>
     </div>
