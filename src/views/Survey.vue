@@ -42,8 +42,8 @@
           <br />
 
           <li>
-            <label for="q4">What would you like to see added to this site? (short answer)</label>
-            <input id="q4" type="text" v-model="answers.q4" placeholder="e.g., more videos, checklists, practice scenarios" />
+            <label for="q4">What additional resources would make this site more valuable to you?</label>
+            <input id="q4" type="text" v-model="answers.q4" placeholder="e.g., short video briefs, concise playbooks, interactive scenarios" />
           </li>
 
           <br />

@@ -7,15 +7,15 @@ A concise guide website for professional dining etiquette aimed at University of
 Source code: this repository. Deployed to GitHub Pages.
 Live site: https://nhswg.github.io/dining-etiquette-site/
 
-## Assignment checklist
+## Project deliverables & verification
 
-This project was updated to meet the course assignment minimums. Where each requirement appears:
+This repository delivers a concise, professional learning resource designed to prepare students for business dining scenarios. The items below document where each course requirement is implemented and how it supports a practical training workflow:
 
-- One internal link: the site navigation and a dedicated Survey page (`/survey`) — accessible from the top nav and HomeView.
-- One external link: the Home page links to the University of Arizona homepage (https://www.arizona.edu/).
-- One graphic feature: `src/assets/logo.svg` is shown on the Home page as a site graphic.
-- One advanced feature: an embedded YouTube video is on the Home page as a multimedia resource.
-- Survey questions: a Survey page (`src/views/Survey.vue`) contains a list of questions suitable for a brief student survey.
+- Internal navigation & feedback: a dedicated Survey page (`/survey`) is reachable from the main navigation and Home page. The survey provides a short, professional feedback form to capture learner responses.
+- External resource integration: the Home page links to the University of Arizona homepage (https://www.arizona.edu/) for authoritative campus resources and next-step actions.
+- Visual branding: the site includes a campus-aligned site graphic located in `src/assets/` and displayed on the Home view to improve visual credibility.
+- Multimedia training: an embedded YouTube video on the Home page provides a short, instructor-style briefing to reinforce key points.
+- Learner feedback: `src/views/Survey.vue` contains focused survey prompts to collect actionable input for future improvements.
 
 ## How to run (local)
 

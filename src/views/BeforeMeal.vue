@@ -3,17 +3,17 @@
     <h1>Before the Meal</h1>
     
     <div class="content-card">
-      <h2>Preparation Checklist</h2>
+      <h2>Pre‑Meeting Success Checklist</h2>
       <div class="checklist">
         <ul>
-          <li>Confirm the date, time, and location</li>
-          <li>Research the restaurant and menu</li>
-          <li>Plan to arrive 10-15 minutes early</li>
-          <li>Dress appropriately for the venue</li>
-          <li>Bring business cards if appropriate</li>
+          <li>Verify the meeting objective, date, time, and exact location</li>
+          <li>Review the venue and menu so you can guide ordering and dietary needs</li>
+          <li>Arrive 10–15 minutes early to greet hosts and gather your composure</li>
+          <li>Choose business‑appropriate attire that projects confidence and fit the venue</li>
+          <li>Bring business cards or a one‑page summary of talking points when relevant</li>
         </ul>
       </div>
-      <p class="muted">For university-specific interview and dining prep, check UA Career & Internship Services: <a href="https://career.arizona.edu/" target="_blank" rel="noopener">career.arizona.edu</a></p>
+      <p class="muted">For university-specific interview and dining preparation resources, see UA Career & Internship Services: <a href="https://career.arizona.edu/" target="_blank" rel="noopener">career.arizona.edu</a></p>
     </div>
 
     <div class="content-card">
